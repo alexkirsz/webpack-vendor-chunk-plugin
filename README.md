@@ -31,7 +31,7 @@ Will create two files:
 * `vendor.js`, which contains the `react` and `redux` modules and all their dependencies.
 * `bundle.js`, which contains your application code and the rest of its dependencies.
 
-While you would expect `vendor.js` to only execute the `react` and `redux` modules once they are required from within `bundle.js`, this is not the case. In fact, upon loading `bundle.js`, an equivalent to the following code is executed:
+While you would expect `vendor.js` to only execute the `react` and `redux` modules once they are required from within `bundle.js`, this is not the case. In fact, upon loading `vendor.js`, an equivalent to the following code is executed:
 
 ```js
 require('react');
