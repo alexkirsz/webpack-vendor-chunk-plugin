@@ -1,0 +1,14 @@
+{
+  "name": "webpack-vendor-chunk-plugin",
+  "version": "1.0.0",
+  "description": "Removes the runtime code from a webpack chunk.",
+  "main": "index.js",
+  "keywords": [
+    "webpack",
+    "vendor",
+    "entry",
+    "chunk"
+  ],
+  "author": "Alexandre Kirszenberg <alexandre.kirszenberg@gmail.com>",
+  "license": "MIT"
+}
